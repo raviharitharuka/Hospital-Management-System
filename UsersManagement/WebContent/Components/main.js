@@ -64,7 +64,7 @@
 	 $("#name").val($(this).closest("tr").find('td:eq(0)').text());
 	 $("#email").val($(this).closest("tr").find('td:eq(1)').text());
 	 $("#password").val($(this).closest("tr").find('td:eq(2)').text());
-	 $("#role").val($(this).closest("tr").find('td:eq(3)').text());
+	 $("#role").val($(this).closest("tr").find('td:eq(2)').text());
 	 });
 	
 
