@@ -125,19 +125,11 @@
     			return "Insert Role.";
 
     		}
+	  	if(($("#name").val().trim() != "") && ($("#email").val().trim() != "") && ($("#password").val().trim() != "") && ($("#role").val().trim() != "")) {
+      			 window.location.reload();
+    	}
     		return true;
     		
     }
     
- //Refresh 
-    function SaveRefresh(){
-    	if(($("#name").val().trim() != "") && ($("#email").val().trim() != "") && ($("#password").val().trim() != "") && ($("#role").val().trim() != "")) {
-       window.location.reload();
-    	}
-   }
-    function DeleteRefresh(){
-    	
-    	  window.location.reload();
-    	
-   }
-    
+
