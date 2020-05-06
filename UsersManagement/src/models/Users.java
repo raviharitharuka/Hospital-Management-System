@@ -61,7 +61,7 @@ public class Users { // A common method to connect to the DB
 // buttons
 				output += "<td><input name='btnUpdate' type='button' value='Update' class='btnUpdate btn btn-secondary'></td>"
 						+ "<td><input name='btnRemove' type='button' value='Remove' class='btnRemove btn btn-danger' data-id='"
-						+ id + "' onClick=\"DeleteRefresh();\">" + "</td></tr>";
+						+ id + "' onClick=\"location.reload();\">" + "</td></tr>";
 			}
 			con.close();
 // Complete the html table
