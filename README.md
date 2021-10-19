@@ -18,5 +18,4 @@ The purpose of this project is to provide an easy admin UI to manage the users w
 - Step 4 : http://localhost:8082/UsersManagement/users.jsp
 
 
-Consider : Refresh the page after clicking "Save" button.
-           Click "Delete" button twice. 
+
